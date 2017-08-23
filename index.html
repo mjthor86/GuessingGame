@@ -10,13 +10,13 @@
       <div id='app' class='center container'>
 
         <div id='headers' class='center'>
-          <h1>Guessing Game!</h1>
-          <h2>Guess a number between 1-100</h2>
+          <h1 id='title'>Guessing Game!</h1>
+          <h2 id='subtitle'>Guess a number between 1-100</h2>
         </div>
 
         <div id='main' class='center'>
           <div id='input-parent'>
-            <input id='players-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+            <input id='players-input' class='center form-control' placeholder="#" maxlength='3' autofocus=autofocus>
             <button id='submit' class='btn btn-success'>Go!</button>
           </div>
 
@@ -31,8 +31,8 @@
           </div>
 
           <div id="menu-btns">
-            <button class="btn btn-warning">Reset</button>
-            <button class="btn btn-info">Hint</button>
+            <button id="reset" class="btn btn-warning">Reset</button>
+            <button id="hint" class="btn btn-info">Hint</button>
           </div>
         </div>
       </div>
@@ -56,6 +56,7 @@
 
         </div>
     </div>
-   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="GuessingGame.js"></script>
   </body>
 </html>
