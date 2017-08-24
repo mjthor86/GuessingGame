@@ -18,12 +18,13 @@ body {
 }
 #title {
     font-family: 'Lato',verdana, sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
 }
 #subtitle {
     font-family: 'Lato',verdana, sans-serif;
     font-weight: bold;
+    font-size: 30px;
 }
 #input-parent {
     position: relative;
