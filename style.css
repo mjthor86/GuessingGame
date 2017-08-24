@@ -11,7 +11,7 @@ body {
 #header {
     width: 75%;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 5%;
+    border-radius: 10px;
     padding: 0 0 20px 0;
     color: white;
     margin-top: 1%;
@@ -80,4 +80,21 @@ body {
 #menu-btns button {
     font-family: 'Lato', verdana, sans-serif;
     background-color: rgba(0, 0, 0, 0.8);
+}
+#footer{
+    background-color: rgba(256, 256, 256, 1);
+    border-radius: 10px;
+    margin-top: 2%;
+}
+#fullstack-logo {
+    height: 6vw;
+}
+#my-name {
+    font-family: 'Lato', verdana, sans-serif;
+    font-size: 2vw;
+    vertical-align: middle;
+    padding-top: 1.5%;
+}
+#grace-hopper-logo {
+    height: 6vw;
 }

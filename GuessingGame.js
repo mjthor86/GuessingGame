@@ -101,7 +101,7 @@ $(document).ready(function() {
     $('#reset').click(function() {
         game = newGame();
         $('#title').text('Guessing Game!');
-        $('subtitle').text('Guess a number between 1-100');
+        $('#subtitle').text('Guess a number between 1-100');
         $('#guesses .guess').text('-');
         $('#submit, #hint').prop('disabled', false);
     });
