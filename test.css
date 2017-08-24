@@ -1,0 +1,17 @@
+.guess {
+    height: 7vw;
+    width: 7vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    text-align: center;
+    line-height: 7vw;
+    font-size: 5vw;
+    margin: 0.5vw;
+    position: relative;
+    border-radius: 7px;
+    border: solid 2px white;
+    color: white;
+}
+body {
+    text-align: center;
+}

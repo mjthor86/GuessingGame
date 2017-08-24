@@ -50,7 +50,7 @@ Game.prototype.checkGuess = function() {
             return 'You have already guessed that number.';
         } else {
             this.pastGuesses.push(this.playersGuess);
-            $('#guesses li:nth-child('+ this.pastGuesses.length +')').text(this.playersGuess);
+            $('#guesses .guess:nth-child('+ this.pastGuesses.length +')').text(this.playersGuess);
         }
     }
 
@@ -108,6 +108,6 @@ $(document).ready(function() {
 
     $('#hint').click(function() {
         let hints = game.provideHint();
-        $('#title').text('The winning number is '+hints[0]+', '+hints[1]+', or '+hints[2]);
+        $('#subtitle').text('The winning number is '+hints[0]+', '+hints[1]+', or '+hints[2]);
     });
 });

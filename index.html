@@ -8,56 +8,71 @@
   </head>
   <body>
 
-      <div id='app' class='center container'>
-
-        <div id='headers' class='center'>
-          <h1 id='title'>Guessing Game!</h1>
-          <h2 id='subtitle'>Guess a number between 1-100</h2>
-        </div>
-
-        <div id='main' class='center'>
-          <div id='input-parent'>
-            <input id='players-input' class='center form-control' placeholder="#" maxlength='3' autofocus=autofocus>
-            <button id='submit' class='btn btn-success'>Go!</button>
-          </div>
-
-          <div id='guesses'>
-            <ul>
-              <li class='guess'>-</li>
-              <li class='guess'>-</li>
-              <li class='guess'>-</li>
-              <li class='guess'>-</li>
-              <li class='guess'>-</li>
-            </ul>
-          </div>
-
-          <div id="menu-btns">
-            <button id="reset" class="btn btn-warning">Reset</button>
-            <button id="hint" class="btn btn-info">Hint</button>
-          </div>
+    <div id='header' class='container'>
+      <div class='row'>
+        <div class='col-xs-12'>
+          <h1 id='title' class='text-center'>Guessing Game!</h1>
         </div>
       </div>
+      <div class='row'>
+        <div class='col-xs-12'>
+          <h2 id='subtitle' class='text-center'>Guess a number between 1-100</h2>
+        </div>
+      </div>
+    </div>
 
+    <div id='input-parent' class='container'>
+      <div class='row'>
+        <div class='col-xs-12'>
+          <input id='players-input' class='center form-control' placeholder="#" maxlength='3' autofocus=autofocus>
+          <button id='submit' class='btn btn-success'>Go!</button>
+        </div>
+      </div>
+    </div>
 
+<!-- start of guess area -->
+<!-- https://stackoverflow.com/questions/20456694/grid-of-responsive-squares -->
+
+    <div id="guesses" class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="guess">-</div>
+          <div class="guess">-</div>
+          <div class="guess">-</div>
+          <div class="guess">-</div>
+          <div class="guess">-</div>
+        </div>
+      </div>  
+    </div>
+
+<!-- menu buttons -->
+
+    <div id="menu-btns" class="container">
+      <button id="reset" class="btn btn-warning btn-lg">Reset</button>
+      <button id="hint" class="btn btn-info btn-lg">Hint</button>
+    </div>
+
+<!-- footer --> <!--
 
     <div id='footer' class='center'>
         <div class='row'>
-          <div class='col-sm-4'>
-            <img src='fa-logo@2x.png'></img>
+          <div id='fsa-logo' class='col-sm-4'>
+            <img src='fa-logo@2x.png'>
           </div>
-
-          <div class='col-sm-4'>
+          <div id='my-name' class='col-sm-4'>
             <h4>Project by Matthew Thor</h4>
           </div>
-
           <div class='col-sm-4'>
-            <img id='grace-hopper-logo' src='grace_hopper_academy.png'></img>
+            <img id='grace-hopper-logo' src='grace_hopper_academy.png'>
           </div>
-
-
         </div>
     </div>
+-->
+
+<!-- game engine scripts -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="GuessingGame.js"></script>
+
   </body>
 </html>
